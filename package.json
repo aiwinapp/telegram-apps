@@ -34,6 +34,7 @@
     "husky": "^9.0.11",
     "rimraf": "^5.0.5",
     "rollup-plugin-preserve-shebang": "^1.0.1",
+    "tsconfig": "^7.0.0",
     "tslib": "^2.6.2",
     "tsx": "^4.16.2",
     "turbo": "^2.0.6",
