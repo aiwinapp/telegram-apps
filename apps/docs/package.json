@@ -6,9 +6,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vitepress dev",
-    "build": "vitepress build",
-    "preview": "vitepress preview"
+    "dev": "node_modules/.bin/vitepress build dev",
+    "build": "node_modules/.bin/vitepress build build",
+    "preview": "node_modules/.bin/vitepress build preview"
   },
   "keywords": [],
   "author": "",

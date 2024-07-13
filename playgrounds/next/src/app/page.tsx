@@ -18,7 +18,7 @@ export default function Home() {
             before={<Image src={tonSvg.src} style={{ backgroundColor: '#007AFF' }}/>}
             subtitle='Connect your TON wallet'
           >
-            TON Connect
+            TON Connect 2
           </Cell>
         </Link>
       </Section>
