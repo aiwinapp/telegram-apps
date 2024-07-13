@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-    "ci:docs:build": "pnpm run docs:build",
     "ci:packages:build": "pnpm run packages:build",
     "ci:packages:deps": "pnpm i --filter=\"./packages/*\"",
     "ci:packages:lint": "pnpm run packages:lint",
@@ -10,8 +9,6 @@
     "ci:packages:rollup": "pnpm run ci:packages:deps && pnpm run ci:packages:build && pnpm run ci:packages:lint && pnpm run ci:packages:typecheck && pnpm run ci:packages:test",
     "commit": "git cz",
     "dev": "turbo run dev",
-    "docs:build": "turbo run build --filter=\"./apps/docs\"",
-    "docs:dev": "turbo run dev --filter=\"./apps/docs\"",
     "packages:build": "turbo run build --filter=\"./packages/*\"",
     "packages:lint": "turbo run lint --filter=\"./packages/*\"",
     "packages:lint:fix": "turbo run lint:fix --filter=\"./packages/*\"",
